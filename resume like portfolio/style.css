@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: azure;
+}
+.main-nav{
+    background-color: #779980;
+    position: fixed;
+    width: 100%;
+    color: whitesmoke;
+    padding: 20px 20px;
+    overflow: hidden;
+    
+}
+.main-nav nav{
+    float:right;
+    padding: 10px;
+    margin-top: 12px;
+}
+.main-nav nav ul li{
+    display: inline;
+    padding-right: 130px;
+}
+.main-nav nav ul li a{
+    color: whitesmoke;
+    padding-bottom: 20px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.main-nav nav ul li a:hover{
+    color: rgb(31, 75, 33);
+    transition: 0.20s;
+}
+#main-nav-id  .myLogo{
+    float:left;
+    width: 55px;
+    border-right: solid rgb(21, 66, 92) 5px;
+    border-bottom: solid rgb(21, 66, 92) 5px;
+    padding-top: 10px;
+    margin-left: 15px;
+    border-radius: 20%;
+}
+.myLogo{
+    text-align: center;
+    padding-bottom: 5px;
+}
+.backgroundfixed{
+  background-image: url("./image/qweqwe.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+header .headerbox h1{
+    text-align: center;
+    margin-top: 70px;
+    font-size: 3em;
+}
+header .headerbox p{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+section .container1{
+    margin-bottom: 10%;
+}
+section{
+    height: 50%;
+    margin: auto;
+    overflow: hidden;
+}
+section .picture{
+    float: left;
+    width: 600px;
+    height: 310px;;
+    margin-left: 200px;
+    padding-left: 50px;
+}
+section .picture img{
+    height: 350px;
+}
+section .about-me-info{
+    padding-top: 50px;
+    float:right;
+    height: 270px;
+    width: 600px;
+    margin-right: 100px;
+    background-color: rgb(221, 216, 207); 
+    border-radius: 3%;
+}
+section .about-me-info h1{
+    text-align: center;
+    padding-bottom: 20px;
+}
+section .about-me-info p{
+    padding: 20px;
+}
+section .picture .about-me-info{
+    margin-bottom: 400px;
+}
+section .about-me-info button{
+    background-color: rgb(65, 90, 65);
+    color: black;
+    padding: 10px;
+    border-radius: 15%;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+section .about-me-info button:hover{
+    background-color: green;
+    transition: 0.5;
+}
+.clr{
+    clear: both;
+}
+section .container{
+    margin-top: 100px;
+}
+section .pictureskills{
+    float: left;
+    width: 600px;
+    height: 310px;;
+    margin-left: 200px;
+    padding-left: 50px;
+}
+section .pictureskills img{
+    height: 350px;
+}
+section .about-my-skills{
+    padding-top: 50px;
+    float:right;
+    height: 270px;
+    width: 600px;
+    margin-right: 100px;
+    background-color: rgb(221, 216, 207); 
+    border-radius: 3%;
+}
+section .about-my-skills h1{
+    text-align: center;
+    padding-bottom: 20px;
+}
+section .about-my-skills ul li{
+    padding: 20px;
+    list-style-type: none;
+}
+section .pictureskills .about-my-skills{
+    margin-bottom: 400px;
+}
+footer .footercontainer{
+    background-color: #779980;
+    text-align: center;
+    padding: 20px;
+    margin-top:100px ;
+}

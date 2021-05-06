@@ -1,11 +1,22 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: rgb(63, 54, 54);
+    background-color: rgb(24, 23, 23);
     color: whitesmoke;
 }
 header{
-    position: relative;
+    padding: 10px 20px 10px 20px;
+    width: 80%;
+    margin: 0 auto;
+}
+.marginpro{
+    margin-top: 30px;
+}
+.box{
+    float: left;
+}
+.clr{
+    clear: both;
 }
 .profile--picture {
     width: 200px;
@@ -18,15 +29,16 @@ header{
 .profile--picture .profileimage {
     width: 100%;
     height: auto;
-}  
+} 
 .name{
-    position: absolute;
-    top: 80px;
-    left: 650px;
+    text-align: center;
+    width: 25%;
+    margin: auto;
+    margin-top: 80px;
 }
 .jaymerbasilio{
+    border-bottom: solid white 3px;
     font-size: 3em;
-    border-bottom: solid gold 3px;
 }
 .information{
     text-align: center;
